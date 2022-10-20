@@ -77,6 +77,32 @@
 
     <!-- hero section ends-->
 
+    <!-- container -->
+    <div class="container">
+
+        <!-- panel -->
+        <div class="row">
+          <div class="col-lg-8 info-panel">
+            <div class="row">
+              <div class="col-lg">
+               <a href="#"> <img src="/Assets/panel/button3.png" alt=""></a>
+              </div>
+              <div class="col-lg">
+                <a href="#"><img src="/Assets/panel/button2.png" alt=""></a>
+              </div>
+              <div class="col-lg">
+                <a href="#"><img src="/Assets/panel/button1.png" alt=""></a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-10 info-panel2">
+            <input id="search" class="rounded-pill" type="text" placeholder="   FIND SOMETHING..."><a href="#search"><i class="fa-solid fa-magnifying-glass-location ms-3  fa-3x" style="position: absolute;"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- container end -->
+
     <!-- content -->
     <section id="content" class="bg-secondary bg-opacity-10">
       <div class="container">
@@ -88,7 +114,7 @@
             </h1>
           </div>
           <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
-            <h1 class="p-5 fw-bold fs-4 mt-4" style="margin-left: 130px">
+            <h1 class="p-5 fw-bold fs-5 mt-5" style="margin-left: 130px">
               <span class="text-info">500++ </span>Destination <br />
               lets find out and start your trip
             </h1>

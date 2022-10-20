@@ -100,21 +100,57 @@ body {
     font-size: 16px;
     color: #fff;
     margin-bottom: 30px;
-    margin-top: 40px;
-    line-height: 50px;
+    margin-bottom: 40px;
+    line-height: 40px;
     width: 90%;
 }
 
 .button-lg-primary {
+    position: relative;
     width: 186px;
     height: 60px;
-    padding: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-decoration: none;
     border: 3px solid white;
+    background: transparent;
     color: #fff;
+    bottom: 30px;
+}
+.button-lg-primary:hover {
+    border: 3px solid rgba(190, 185, 185, 0.5);
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    transition: 0.3s ease-in-out;
 }
 
 /* hero style ends */
+
+/* panel */
+.info-panel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-top: -70px;
+    background-color: #e6e4e4;
+    padding: 40px;
+}
+.info-panel2 {
+    box-shadow: 7px 8px 9px -6px #222;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+.info-panel2 input {
+    width: 80%;
+    background-color: #eaeaea;
+    padding: 10px;
+    border: 2px solid rgb(133, 126, 126);
+}
 
 /* content */
 #content {
