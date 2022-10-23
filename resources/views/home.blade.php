@@ -69,7 +69,7 @@
               our world gems and enjoy your journey
             </p>
 
-            <a class="button-lg-primary rounded">Get Started</a>
+            <a class="button-lg-primary rounded" href="#content2">Get Started</a>
           </div>
         </div>
       </div>
@@ -77,171 +77,188 @@
 
     <!-- hero section ends-->
 
-    <!-- container -->
     <div class="container">
 
         <!-- panel -->
         <div class="row">
-          <div class="col-lg-8 info-panel">
+          <div class="col-lg-7  info-panel">
             <div class="row">
-              <div class="col-lg">
+              <div class="col-lg" style="width: 210px;">
                <a href="#"> <img src="/Assets/panel/button3.png" alt=""></a>
               </div>
-              <div class="col-lg">
+              <div class="col-lg mb-2" style="width: 210px;">
                 <a href="#"><img src="/Assets/panel/button2.png" alt=""></a>
               </div>
-              <div class="col-lg">
+              <div class="col-lg" style="width: 210px;">
                 <a href="#"><img src="/Assets/panel/button1.png" alt=""></a>
               </div>
             </div>
 
           </div>
-          <div class="col-lg-10 info-panel2">
+          <div class="col-lg-10   info-panel2">
             <input id="search" class="rounded-pill" type="text" placeholder="   FIND SOMETHING..."><a href="#search"><i class="fa-solid fa-magnifying-glass-location ms-3  fa-3x" style="position: absolute;"></i></a>
           </div>
         </div>
       </div>
       <!-- container end -->
 
-    <!-- content -->
-    <section id="content" class="bg-secondary bg-opacity-10">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-5 col-md-6">
-            <h1 class="py-5 fw-bold">
-              Most <br />
-              Popular Destination
-            </h1>
+      <!-- content -->
+      <section id="content" class="bg-secondary bg-opacity-10">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="py-5 fw-bold">
+                Most <br />
+                Popular Destination
+              </h1>
+            </div>
+            <div class=" offset-sm-2 col-md-6 offset-md-0">
+              <h1 class="p-5 fw-bold fs-5 mt-4 " style="margin-left: 130px">
+                <span class="text-info">500++ </span>Destination <br />
+                lets find out and start your trip
+              </h1>
+            </div>
           </div>
-          <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
-            <h1 class="p-5 fw-bold fs-5 mt-5" style="margin-left: 130px">
-              <span class="text-info">500++ </span>Destination <br />
-              lets find out and start your trip
-            </h1>
+
+          <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card my-card h-100 shadow-lg rounded">
+                <img src="/Assets/content/Rectangle 19 (1).png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <a class="text-decoration-none fw-bold" style="font-size: 11px" href="#"><i class="fa-solid fa-location-dot mr-2 me-2"></i>Papua Indonesia</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card my-card h-100 shadow-lg rounded">
+                <img src="/Assets/content/Rectangle 19 (2).png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <a class="text-decoration-none fw-bold" style="font-size: 11px" href="#"><i class="fa-solid fa-location-dot mr-2 me-2"></i>Papua Indonesia</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card my-card h-100 shadow-lg rounded">
+                <img src="/Assets/content/Rectangle 19 (3).png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <a class="text-decoration-none fw-bold" style="font-size: 11px" href="#"><i class="fa-solid fa-location-dot mr-2 me-2"></i>Papua Indonesia</a>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="col">
+              <div class="card my-card h-100 shadow-lg rounded">
+                <img src="/Assets/content/Rectangle 19.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <a class="text-decoration-none fw-bold" style="font-size: 11px" href="#"><i class="fa-solid fa-location-dot mr-2 me-2"></i>Papua Indonesia</a>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="container">
+          <h1 class="fw-bold text-center" style="margin-top: 160px; margin-bottom: 50px">DISCOVER</h1>
+          <div class="row">
+            <div class="col-sm-5 col-md-6">
+              <h1 class="py-5 fw-bold">Travel Destination</h1>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4" style="margin-bottom: 500px">
+              <div class="col">
+                <div class="card mb-3" style="width: 588; height: 410; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px">
+                  <div class="row g-0">
+                    <div class="col-md-6">
+                      <img src="Assets/content/Rectangle 19.png" style="width: 100%;" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-6 p-3">
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold fs-5 mb-4">Raja Ampat</h5>
+                        <p class="card-text position-relative " style="width: 200px;" >
+                          this is the reason why to many people visit indonesai because in here we have a most beautyfull view of mountain, you can feel havenly when you came here. so what you wait come here right now to Raja Ampat we wait
+                          your arrival
+                        </p>
+                        <a class="text-decoration-none py-1" style="font-size: 12px" href="#"> More Detail <i class="fa-solid fa-arrow-right"></i></a>
+                        <p class="card-text pt-4">
+                          <a class="text-decoration-none fw-bold" style="font-size: 11px" href="#"><i class="fa-solid fa-location-dot mr-2 me-2"></i>Papua Indonesia</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-3" style="width: 588; height: 410; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px">
+                  <div class="row g-0">
+                    <div class="col-md-6">
+                      <img src="Assets/content/Rectangle 19 (1).png" style="width: 100%;" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-6 p-3">
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold fs-5 mb-4">Kelimutu Lake</h5>
+                        <p class="card-text position-relative " style="width: 200px;">
+                          this is the reason why to many people visit indonesai because in here we have a most beautyfull view of mountain, you can feel havenly when you came here. so what you wait come here right now to Kelimutu Lake we wait
+                          your arrival
+                        </p>
+                        <a class="text-decoration-none py-1" style="font-size: 12px" href="#">More Detail<i class="fa-solid fa-arrow-right"></i></a>
+                        <p class="card-text pt-4">
+                          <a class="text-decoration-none fw-bold" style="font-size: 11px" href="#"><i class="fa-solid fa-location-dot mr-2 me-2"></i>East Nusa Tenggara Indonesia</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-3" style="width: 588; height: 410; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px">
+                  <div class="row g-0">
+                    <div class="col-md-6">
+                      <img src="Assets/content/Rectangle 19 (2).png" style="width: 100%;" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-6 p-3">
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold fs-5 mb-4">Komodo Island</h5>
+                        <p class="card-text position-relative " style="width: 200px;">
+                          this is the reason why to many people visit indonesai because in here we have a most beautyfull view of mountain, you can feel havenly when you came here. so what you wait come here right now to Komodo National
+                          Island we wait your arrival
+                        </p>
+                        <a class="text-decoration-none py-1" style="font-size: 12px" href="#"> More Detail <i class="fa-solid fa-arrow-right"></i></a>
+                        <p class="card-text pt-4">
+                          <a class="text-decoration-none fw-bold" style="font-size: 11px" href="#"><i class="fa-solid fa-location-dot mr-2 me-2"></i> East Nusa Tenggara Indonesia</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-3" style="width: 588; height: 410; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px">
+                  <div class="row g-0">
+                    <div class="col-md-6">
+                      <img src="Assets/content/Rectangle 19 (3).png" style="width: 100%;" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-6 p-3">
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold fs-5 mb-4">Bromo Tengger</h5>
+                        <p class="card-text position-relative " style="width: 200px;">
+                          this is the reason why to many people visit indonesai because in here we have a most beautyfull view of mountain, you can feel havenly when you came here. so what you wait come here right now to Bromo Semeru Tengger
+                          we wait your arrival
+                        </p>
+                        <a class="text-decoration-none py-1" style="font-size: 12px" href="#"> More Detail <i class="fa-solid fa-arrow-right"></i></a>
+                        <p class="card-text pt-4">
+                          <a class="text-decoration-none fw-bold" style="font-size: 11px" href="#"><i class="fa-solid fa-location-dot mr-2 me-2"></i> East Java Indonesia</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-4 g-4" style="margin-top: 100px">
-          <div class="col">
-            <div class="">
-              <img src="{{ asset('/Assets/img/komodoisland.png') }}" class="card-img-top" alt="..." />
-            </div>
-          </div>
-          <div class="col">
-            <div class="">
-              <img src="{{ asset('/Assets/img/bromotengger.png') }}" class="card-img-top" alt="..." />
-            </div>
-          </div>
-          <div class="col">
-            <div class="">
-              <img src="{{ asset('/Assets/img/kelimutulake.png') }}" class="card-img-top" alt="..." />
-            </div>
-          </div>
-          <div class="col">
-            <div class="">
-              <img src="{{ asset('/Assets/img/komodoisland.png') }}" class="card-img-top" alt="..." />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <h1 class="fw-bold text-center" style="margin-top: 160px; margin-bottom: 50px">DISCOVER</h1>
-        <div class="row">
-          <div class="col-sm-5 col-md-6">
-            <h1 class="py-5 fw-bold">Travel Destination</h1>
-          </div>
-          <div class="row row-cols-1 row-cols-md-2 g-4" style="margin-bottom: 500px">
-            <div class="col">
-              <div class="card mb-3" style="width: 588; height: 410; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px">
-                <div class="row g-0">
-                  <div class="col-md-6">
-                    <img src="Assets/content/Rectangle 19.png" class="img-fluid rounded-start" alt="..." />
-                  </div>
-                  <div class="col-6 p-3">
-                    <div class="card-body">
-                      <h5 class="card-title fw-bold fs-5 mb-4">Raja Ampat</h5>
-                      <p class="card-text" style="font-size: 13px">
-                        this is the reason why to many people visit indonesai because in here we have a most beautyfull view of mountain, you can feel havenly when you came here. so what you wait come here right now to Raja Ampat we wait
-                        your arrival
-                      </p>
-                      <a class="text-decoration-none py-1" style="font-size: 12px" href="#"> More Detail <i class="fa-solid fa-arrow-right"></i></a>
-                      <p class="card-text pt-4">
-                        <a class="text-decoration-none fw-bold" style="font-size: 11px" href="#"><i class="fa-solid fa-location-dot mr-2 me-2"></i>Papua Indonesia</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card mb-3" style="width: 588; height: 410; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px">
-                <div class="row g-0">
-                  <div class="col-md-6">
-                    <img src="Assets/content/Rectangle 19 (1).png" class="img-fluid rounded-start" alt="..." />
-                  </div>
-                  <div class="col-6 p-3">
-                    <div class="card-body">
-                      <h5 class="card-title fw-bold fs-5 mb-4">Kelimutu Lake</h5>
-                      <p class="card-text" style="font-size: 13px">
-                        this is the reason why to many people visit indonesai because in here we have a most beautyfull view of mountain, you can feel havenly when you came here. so what you wait come here right now to Kelimutu Lake we wait
-                        your arrival
-                      </p>
-                      <a class="text-decoration-none py-1" style="font-size: 12px" href="#">More Detail<i class="fa-solid fa-arrow-right"></i></a>
-                      <p class="card-text pt-4">
-                        <a class="text-decoration-none fw-bold" style="font-size: 11px" href="#"><i class="fa-solid fa-location-dot mr-2 me-2"></i>East Nusa Tenggara Indonesia</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card mb-3" style="width: 588; height: 410; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px">
-                <div class="row g-0">
-                  <div class="col-md-6">
-                    <img src="Assets/content/Rectangle 19 (2).png" class="img-fluid rounded-start" alt="..." />
-                  </div>
-                  <div class="col-6 p-3">
-                    <div class="card-body">
-                      <h5 class="card-title fw-bold fs-5 mb-4">Komodo Island</h5>
-                      <p class="card-text" style="font-size: 13px">
-                        this is the reason why to many people visit indonesai because in here we have a most beautyfull view of mountain, you can feel havenly when you came here. so what you wait come here right now to Komodo National
-                        Island we wait your arrival
-                      </p>
-                      <a class="text-decoration-none py-1" style="font-size: 12px" href="#"> More Detail <i class="fa-solid fa-arrow-right"></i></a>
-                      <p class="card-text pt-4">
-                        <a class="text-decoration-none fw-bold" style="font-size: 11px" href="#"><i class="fa-solid fa-location-dot mr-2 me-2"></i> East Nusa Tenggara Indonesia</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card mb-3" style="width: 588; height: 410; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px">
-                <div class="row g-0">
-                  <div class="col-md-6">
-                    <img src="Assets/content/Rectangle 19 (3).png" class="img-fluid rounded-start" alt="..." />
-                  </div>
-                  <div class="col-6 p-3">
-                    <div class="card-body">
-                      <h5 class="card-title fw-bold fs-5 mb-4">Bromo Tengger</h5>
-                      <p class="card-text" style="font-size: 13px">
-                        this is the reason why to many people visit indonesai because in here we have a most beautyfull view of mountain, you can feel havenly when you came here. so what you wait come here right now to Bromo Semeru Tengger
-                        we wait your arrival
-                      </p>
-                      <a class="text-decoration-none py-1" style="font-size: 12px" href="#"> More Detail <i class="fa-solid fa-arrow-right"></i></a>
-                      <p class="card-text pt-4">
-                        <a class="text-decoration-none fw-bold" style="font-size: 11px" href="#"><i class="fa-solid fa-location-dot mr-2 me-2"></i> East Java Indonesia</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
     <!-- <section id="content2" class="bg-secondary bg-opacity-10"></section> -->
     <!-- content end-->

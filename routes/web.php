@@ -8,6 +8,12 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 });
+Route::get('/travel', function () {
+    return view('travel.travel');
+});
+Route::get('/travel/food', function () {
+    return view('travel.food');
+});
 
 Route::middleware([
     'auth:sanctum',
